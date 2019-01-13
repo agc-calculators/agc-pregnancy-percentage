@@ -1,0 +1,127 @@
+{
+  "components": [
+    {
+      "tag": "agc-pregnancy-percentage",
+      "dependencies": [],
+      "componentClass": "AgcPregnancyPercentage",
+      "componentPath": "components/agc-pregnancy-percentage/agc-pregnancy-percentage.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "mode",
+          "type": "String",
+          "attr": "mode"
+        },
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        },
+        {
+          "name": "tract",
+          "type": "String",
+          "attr": "tract"
+        }
+      ],
+      "states": [
+        {
+          "name": "cache"
+        },
+        {
+          "name": "currentStep"
+        },
+        {
+          "name": "results"
+        },
+        {
+          "name": "submitted"
+        }
+      ],
+      "events": [
+        {
+          "event": "agcCalculated"
+        },
+        {
+          "event": "agcStepChanged"
+        }
+      ]
+    },
+    {
+      "tag": "agc-pregnancy-percentage-inputs",
+      "dependencies": [],
+      "componentClass": "AgcPregnancyPercentageInputs",
+      "componentPath": "components/agc-pregnancy-percentage-inputs/agc-pregnancy-percentage-inputs.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-pregnancy-percentage-progress",
+      "dependencies": [],
+      "componentClass": "AgcPregnancyPercentageProgress",
+      "componentPath": "components/agc-pregnancy-percentage-progress/agc-pregnancy-percentage-progress.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "currentStep"
+        }
+      ]
+    },
+    {
+      "tag": "agc-pregnancy-percentage-results",
+      "dependencies": [],
+      "componentClass": "AgcPregnancyPercentageResults",
+      "componentPath": "components/agc-pregnancy-percentage-results/agc-pregnancy-percentage-results.js",
+      "styles": {},
+      "props": [
+        {
+          "name": "socket",
+          "type": "String",
+          "attr": "socket"
+        }
+      ],
+      "states": [
+        {
+          "name": "data"
+        },
+        {
+          "name": "ready"
+        }
+      ]
+    },
+    {
+      "tag": "agc-pregnancy-percentage-results-placeholder",
+      "dependencies": [],
+      "componentClass": "AgcPregnancyPercentageResultsPlaceholder",
+      "componentPath": "components/agc-pregnancy-percentage-results-placeholder/agc-pregnancy-percentage-results-placeholder.js",
+      "styles": {}
+    }
+  ],
+  "collections": [],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "0.15.2",
+    "typescriptVersion": "2.9.2"
+  },
+  "bundles": []
+}

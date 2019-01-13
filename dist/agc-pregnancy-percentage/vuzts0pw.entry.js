@@ -1,0 +1,2 @@
+/*! Built with http://stenciljs.com */
+const{h:e}=window.AgcPregnancyPercentage;class a{render(){return e("section",null,e("ul",{class:"agc-results-placeholder"},e("li",null,e("h2",{"data-i18n":"results.pregnancy-percentage"},"Pregnancy Percentage"),(()=>e("span",null,e("i",{class:"mark"})," ",e("i",{class:"mark"})," ",e("i",{class:"mark"})," ",e("i",{class:"mark"})))())))}static get is(){return"agc-pregnancy-percentage-results-placeholder"}}export{a as AgcPregnancyPercentageResultsPlaceholder};

@@ -1,0 +1,1 @@
+export * from '../esm/es5/agc-pregnancy-percentage.define.js';

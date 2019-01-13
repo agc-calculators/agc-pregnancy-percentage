@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Pregnancy Percentage Calculator</title>
+  <link rel="stylesheet" href="/build/agc-pregnancy-percentage.css" type="text/css" />
+  <script src="/build/agc-pregnancy-percentage.js"></script>
+</head>
+<body>
+
+  <agc-pregnancy-percentage socket="example" mode="full">
+      <div slot="results">
+      <agc-pregnancy-percentage-results socket="example">
+        <div slot="empty">
+          <agc-pregnancy-percentage-results-placeholder></agc-pregnancy-percentage-results-placeholder>
+        </div>
+      </agc-pregnancy-percentage-results>
+      <agc-pregnancy-percentage-inputs socket="example"></agc-pregnancy-percentage-inputs>
+    </div>
+  </agc-pregnancy-percentage>
+
+</body>
+</html>
